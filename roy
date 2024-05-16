@@ -1,0 +1,50 @@
+<VAST version="3.0">
+  <Ad id="1">
+    <Wrapper>
+      <AdSystem>Google Ad Manager</AdSystem>
+      <VASTAdTagURI><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=/22816900502/roy_non_skippable&description_url=http%3A%2F%2Fgoogle.com&tfcd=0&npa=0&sz=640x480&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=&vad_type=linear]]></VASTAdTagURI>
+      <Impression><![CDATA[http://example.com/track/impression1]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[http://example.com/track/start1]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://example.com/track/firstQuartile1]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://example.com/track/midpoint1]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://example.com/track/thirdQuartile1]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://example.com/track/complete1]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/click1]]></ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions></Extensions>
+    </Wrapper>
+  </Ad>
+  <Ad id="2">
+    <Wrapper>
+      <AdSystem>Google Ad Manager</AdSystem>
+      <VASTAdTagURI><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=/22816900502/roy_skippable&description_url=http%3A%2F%2Fgoogle.com&tfcd=0&npa=0&sz=640x480&gdfp_req=1&unviewed_position_start=1&output=vast&env=vp&impl=s&correlator=&vad_type=linear]]></VASTAdTagURI>
+      <Impression><![CDATA[http://example.com/track/impression2]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[http://example.com/track/start2]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://example.com/track/firstQuartile2]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://example.com/track/midpoint2]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://example.com/track/thirdQuartile2]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://example.com/track/complete2]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/click2]]></ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions></Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>
